@@ -25,3 +25,23 @@
 [Mongo DB Atlas]: https://www.mongodb.com/cloud/atlas
 [local instance of Mongo DB]: https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-mongodb-on-ubuntu-16-04
 [Express]: https://expressjs.com/
+
+## Core Concepts
+
+### 4 Routing
+- (req)uest - has all information
+- (res)ponse - has all methods for sending data back
+- res.query - get query parameters
+- res.params - used to access params in url
+
+More information on [req and res methods]
+
+[req and res methods]: https://expressjs.com/en/4x/api.html
+
+### 5 Templating
+
+### 6 Template Helpers
+
+### 7 Controllers and MVC Patter
+
+### 8 Middleware and Error Handling
