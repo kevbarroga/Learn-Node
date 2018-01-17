@@ -39,6 +39,9 @@ More information on [req and res methods]
 [req and res methods]: https://expressjs.com/en/4x/api.html
 
 ### 5 Templating
+res.render - render out template
+pug templating lanuage use to called jade
+templates goes in views folder
 
 ### 6 Template Helpers
 
