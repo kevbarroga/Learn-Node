@@ -44,7 +44,10 @@ pug templating lanuage use to called jade
 templates goes in views folder
 
 ### 6 Template Helpers
+helper file helper.js
+helper library or data that is needed in every template
+middleware
 
-### 7 Controllers and MVC Patter
+### 7 Controllers and MVC Pattern
 
 ### 8 Middleware and Error Handling
