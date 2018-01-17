@@ -49,5 +49,8 @@ helper library or data that is needed in every template
 middleware
 
 ### 7 Controllers and MVC Pattern
+M : Model => Interacts with fetching data from database
+V : View => Templates(pug files)
+C : Controller => Gets data and put it into a template
 
 ### 8 Middleware and Error Handling

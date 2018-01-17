@@ -1,0 +1,17 @@
+extends layout
+
+block header
+    h2 DAT SOO ONO
+
+block content
+    .wrapper
+        - const bigCock = cock.toUpperCase()
+        p.sup Sup! My name is #{name} I have a beautiful #{bigCock}
+        span#howzit Howzit!!
+        img.chicken(src="cock.jpg" alt=`cock ${cock.toUpperCase()}`)
+
+        h2
+            | Hello
+            em How are you?
+
+        h2 Sale ends in #{h.moment().endOf('day').fromNow()}
