@@ -82,6 +82,29 @@ Ex:
 ## Control Flow
 
 ### 11 Using Async Await
+- JavasScript asynchronous by default
+- Promise is like an IOU note
+- Async Await does away with Promise chaining and catch
+- Composition - function wrapper to catch errors
+- object destructuring
+
 ### 12 Flash Messages
+- pre= h.dump(locals) - useful to dump JSON to page. pl;ace in layout.pug file, in block messages.
+
 ### 13 Querying our Database for Stores
+- mongo db by default will assign a unique id to every document that stored in the database
+
 ### 14 Creating an Editing Flow for Stores
+- (:<value>) in the router route, ex: `router.get('/stores/:id/edit', catchErrors(storeController.editStore));` :id is like a wildcard variable that is accessible on the request object called params
+
+## Geolocation
+
+### 15 Saving Lat and Lng for each store
+- create schema for geolocation ex. coordinates and address
+
+### 16 Geocoding Data with Google Maps
+- find lng and lat with google maps api
+- lng and lat is discovered via reveres lookup from address
+
+### Quick Data Visualization Tip
+- update storeController.js to set the location data to be a point whenever the store is edited
