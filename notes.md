@@ -106,5 +106,20 @@ Ex:
 - find lng and lat with google maps api
 - lng and lat is discovered via reveres lookup from address
 
-### Quick Data Visualization Tip
+### 17 Quick Data Visualization Tip
 - update storeController.js to set the location data to be a point whenever the store is edited
+
+## File Handling and Image Resizing
+
+### Uploading and Resizing Images with Middleware
+- Add ability to upload a photo when creating a new store
+  - modify form to accept file uploads
+  - add middleware to upload the file and resize before creating store
+- change form to handle multipart type data. set enctype="multipart/form-data"
+- file mimetype describes the type of the file, file extension is not always true.
+
+### Routing and Templating Single Stores
+- complete single store layout
+- setup new route in index.js
+- add controller for new route in storeController.js
+- render 'store' template with params
