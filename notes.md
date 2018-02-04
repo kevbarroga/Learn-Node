@@ -111,15 +111,46 @@ Ex:
 
 ## File Handling and Image Resizing
 
-### Uploading and Resizing Images with Middleware
+### 18 Uploading and Resizing Images with Middleware
 - Add ability to upload a photo when creating a new store
   - modify form to accept file uploads
   - add middleware to upload the file and resize before creating store
 - change form to handle multipart type data. set enctype="multipart/form-data"
 - file mimetype describes the type of the file, file extension is not always true.
 
-### Routing and Templating Single Stores
+### 19 Routing and Templating Single Stores
 - complete single store layout
 - setup new route in index.js
 - add controller for new route in storeController.js
 - render 'store' template with params
+
+## Custom Quereis and Hooks
+
+### 20 Using Pre-Save hooks to make Unique Slugs
+- use regex to do a fuzzy search to find stores with the same name
+
+### 21 Custom Mongo DB Aggregations
+- creating tags page
+  - list of possible tags with the number of stores related to tag
+  - filter for all stores with specific tag
+- offload aggregation from node to mongo db because DB's specialize in preforming complex queries. Save node from using too much resources to do aggregation
+- aggregate function similar to reduce function to JavaScript
+
+### 22 Multiple Query Promises with Async:Await
+- Promise.all() used to await multiple promises
+
+## User Accounts and Authentication
+
+### Creating Use Accounts
+
+
+### Saving Registered Users to the Database
+
+
+### VIrtual Fields, Login:Logout middleware and Protecting Routes
+
+
+### Creating a User Account Edit Screen
+
+
+### Password Reset Flow
