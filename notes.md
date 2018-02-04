@@ -141,11 +141,11 @@ Ex:
 
 ## User Accounts and Authentication
 
-### Creating Use Accounts
+### Creating User Accounts
 
 
 ### Saving Registered Users to the Database
-
+- update start.js to import User.js
 
 ### VIrtual Fields, Login:Logout middleware and Protecting Routes
 
