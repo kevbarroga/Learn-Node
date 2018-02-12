@@ -141,16 +141,28 @@ Ex:
 
 ## User Accounts and Authentication
 
-### Creating User Accounts
+### 23 Creating User Accounts
 
 
-### Saving Registered Users to the Database
+### 24 Saving Registered Users to the Database
 - update start.js to import User.js
 
-### VIrtual Fields, Login:Logout middleware and Protecting Routes
+### 25 VIrtual Fields, Login:Logout middleware and Protecting Routes
 
 
-### Creating a User Account Edit Screen
+### 26 Creating a User Account Edit Screen
 
 
-### Password Reset Flow
+### 27 Password Reset Flow
+
+## Advanced - Email and Permissions
+
+### 28 Sending email with Nodejs
+- create account with [mailtrap.io]
+- create transport interface
+
+[mailtrap.io]: https://mailtrap.io/
+
+### 29 Locking down our application with User Permissions
+- create author property to link users and stores
+- .populate('<property>') to fill in document info
