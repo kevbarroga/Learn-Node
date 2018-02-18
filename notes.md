@@ -166,3 +166,24 @@ Ex:
 ### 29 Locking down our application with User Permissions
 - create author property to link users and stores
 - .populate('<property>') to fill in document info
+
+## Ajax REST API 1
+
+### 30 Loading Sample Data
+
+### 31 JSON endpoints and creating MongoDB Indexes
+- indexes makes queries fast
+
+### 32 Creating an Ajax Search Interface
+
+## Ajax REST API 2
+
+### 33 Creating a Geospatial Ajax Endpoint
+
+### 34 Plottting Stres on a Custom Google Map
+
+## Ajax REST API 3
+
+### 35 Pushing User Data to our API
+
+### 36 Displaying out Hearted Stores
